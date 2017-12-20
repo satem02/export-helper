@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportHelper", "ExportHelper\ExportHelper.csproj", "{79F8E078-920D-410B-BAF3-DA983C73AAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{A11A529D-F08E-42AE-A20A-C50735BA98AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F8E078-920D-410B-BAF3-DA983C73AAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F8E078-920D-410B-BAF3-DA983C73AAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F8E078-920D-410B-BAF3-DA983C73AAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F8E078-920D-410B-BAF3-DA983C73AAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11A529D-F08E-42AE-A20A-C50735BA98AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11A529D-F08E-42AE-A20A-C50735BA98AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11A529D-F08E-42AE-A20A-C50735BA98AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11A529D-F08E-42AE-A20A-C50735BA98AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
