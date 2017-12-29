@@ -37,16 +37,12 @@ namespace ExportHelper.Helpers
 
         private static PropertyInfo[] FixProbs(PropertyInfo[] props)
         {
-            PropertyInfo[] response;
-            PropertyInfo[] fixProps;
-            fixProps = props
+            var response = props
                         .Where(s =>
                             s.CustomAttributes
                                 .Where(a => a.AttributeType.Equals(typeof(IgnoreAttribute)))
-                                .ToList().Count > 0)
+                                .ToList().Count == 0)
                         .ToArray();
-
-            response = props.Except(fixProps).ToArray();
 
             return response;
         }
